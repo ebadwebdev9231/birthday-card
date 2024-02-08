@@ -43,7 +43,7 @@ const BirthdayCard = ({ onVisibility }) => {
               Happy birthday!! I hope your day is filled with lots of love and
               laughter! May all of your birthday wishes come true.
             </p>
-            <p className="name">xxx</p>
+            <p className="name">Dear, Nahima</p>
           </div>
         </div>
       </div>
