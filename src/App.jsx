@@ -1,6 +1,5 @@
 import { useState } from "react";
 import BirthdayCard from "./components/BirthdayCard";
-import ConfettiEffect from "./components/ConfettiEffect";
 import AnimatedText from "./components/AnimatedText";
 import Button from "./components/Button";
 
@@ -15,7 +14,6 @@ const App = () => {
         <BirthdayCard onVisibility={onVisibility} />
       ) : (
         <>
-          <ConfettiEffect />
           <div className="App">
             <AnimatedText />
             <p className="surprise-text">I have Surprise for you.</p>
