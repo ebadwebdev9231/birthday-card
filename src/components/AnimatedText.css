@@ -14,6 +14,8 @@
   margin: 0;
   font-family: "Carter One", system-ui;
   letter-spacing: -4px;
+  pointer-events: none;
+  user-select: none;
 }
 
 .animated-text .break span {
