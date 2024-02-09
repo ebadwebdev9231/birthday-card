@@ -16,8 +16,8 @@ const App = () => {
         <BirthdayCard onVisibility={onVisibility} />
       ) : (
         <>
-          <ConfettiEffect />
           <Balloons />
+          <ConfettiEffect />
           <div className="App">
             <AnimatedText />
             <p className="surprise-text">I have Surprise for you.</p>
