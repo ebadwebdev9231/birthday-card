@@ -1,6 +1,7 @@
 import { useState } from "react";
 import BirthdayCard from "./components/BirthdayCard";
-import Balloons from "./components/Balloons";
+import ConfettiEffect from "./components/ConfettiEffect";
+// import Balloons from "./components/Balloons";
 
 const App = () => {
   const [cardVisible, setCardVisible] = useState(false);
@@ -13,7 +14,8 @@ const App = () => {
         <BirthdayCard onVisibility={onVisibility} />
       ) : (
         <>
-          <Balloons />
+          {/* <Balloons /> */}
+          <ConfettiEffect />
           <div className="App">
             <div className="animated-text">
               <h1>
