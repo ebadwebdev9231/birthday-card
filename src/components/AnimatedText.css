@@ -1,1 +1,85 @@
-.animated-text h1{display:inline-block;color:transparent;font-size:10em;margin:0;font-family:"Brush Script MT",cursive}.animated-text h1.break{margin-left:30px}.animated-text h1 span{animation:3s steps(50) infinite animate;animation-delay:calc(.1s * var(--i))}@keyframes animate{0%{color:#fff;filter:blur(1px) hue-rotate(0deg);text-shadow:0 0 10px #00bbf9,0 0 20px #00bbf9,0 0 40px #00bbf9,0 0 80px #00bbf9,0 0 120px #00bbf9,0 0 200px #00bbf9,0 0 300px #00bbf9,0 0 400px #00bbf9}30%,70%{color:#fff;filter:blur(1px) hue-rotate(360deg);text-shadow:0 0 10px #00bbfa,0 0 20px #00bbf9,0 0 40px #00bbf9,0 0 80px #00bbf9,0 0 120px #00bbf9,0 0 200px #00bbf9}100%{color:transparent;filter:blur(1px) hue-rotate(0deg);text-shadow:none}}.surprise-text{font-size:2.5em;margin:20px;color:#fff;font-family:"Dancing Script",cursive}@media (max-width:425px){.animated-text h1{font-size:7em;line-height:1}.animated-text h1.break{margin-left:0}.surprise-text{font-size:2em;color:#fff;font-family:"Dancing Script",cursive}}
+/* animated text  */
+.animated-text h2 {
+  font-family: "Protest Riot", sans-serif;
+  margin: 0 0 -30px;
+  font-size: 6em;
+  background: linear-gradient(90deg, #ffd3a5, #f7a5cb, #e56ab3);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.animated-text .break {
+  display: inline-block;
+  color: transparent;
+  font-size: 10em;
+  margin: 0;
+  font-family: "Carter One", system-ui;
+  letter-spacing: -4px;
+}
+
+.animated-text .break span {
+  color: rgba(255, 255, 255, 0.14);
+  margin: 0 10px;
+  animation: animate 4s ease-in-out forwards 1;
+}
+.animated-text .break span:nth-child(1) {
+  animation-delay: 1s;
+}
+.animated-text .break span:nth-child(2) {
+  animation-delay: 1.5s;
+}
+.animated-text .break span:nth-child(3) {
+  animation-delay: 2s;
+}
+.animated-text .break span:nth-child(4) {
+  animation-delay: 2.5s;
+}
+.animated-text .break span:nth-child(5) {
+  animation-delay: 3s;
+}
+.animated-text .break span:nth-child(6) {
+  animation-delay: 3.5s;
+}
+@keyframes animate {
+  0%,
+  80% {
+    color: #f1ebe5;
+    text-shadow: 0 4.36px 3.896px #c4b59d, 0 -1px 0px rgba(255, 255, 255, 0.7);
+  }
+  10%,
+  70% {
+    color: rgba(255, 255, 255, 0.14);
+    text-shadow: none;
+  }
+  100% {
+    color: #f1ebe5;
+    text-shadow: 0 10.36px 8.896px #c4b59d, 0 -2px 1px rgba(255, 255, 255, 0.7);
+  }
+}
+
+.surprise-text {
+  font-size: 2.5em;
+  margin: 0 20px 20px;
+  color: #ffffff;
+  font-family: "Dancing Script", cursive;
+}
+
+@media (max-width: 425px) {
+  .animated-text h2 {
+    font-size: 2.6em;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .animated-text .break {
+    font-size: 4.8em;
+    line-height: 1;
+  }
+  .animated-text .break span {
+    margin: 0 6px;
+  }
+  .surprise-text {
+    font-size: 1.7em;
+    margin: 20px;
+  }
+}
+
+/* animated heading  */
