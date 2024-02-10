@@ -38,12 +38,15 @@ const BirthdayCard = ({ onVisibility }) => {
             <h3 className="toyou">to you!</h3>
           </div>
           <div className="wishes">
-            <p>Dear Friend,</p>
+            <p>Dear,</p>
             <p>
-              Happy birthday!! I hope your day is filled with lots of love and
-              laughter! May all of your birthday wishes come true.
+              Wishing you a day filled with joy, laughter, and all the love in
+              the world. May this year bring you countless blessings
+              unforgettable moments, and dreams that soar higher than ever
+              before! Cheers to you, and to the beautiful soul that you are!
+              🎂🥳"
             </p>
-            <p className="name">Dear, Nahima</p>
+            <p className="name">Dear, Nahima from Ebad</p>
           </div>
         </div>
       </div>

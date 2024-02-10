@@ -4,6 +4,7 @@ import AnimatedText from "./components/AnimatedText";
 import Button from "./components/Button";
 import Balloons from "./components/Balloons";
 import ConfettiEffect from "./components/ConfettiEffect";
+import Bouquet from "./components/Bouquet";
 
 const App = () => {
   const [cardVisible, setCardVisible] = useState(false);
@@ -20,8 +21,11 @@ const App = () => {
           <ConfettiEffect />
           <div className="App">
             <AnimatedText />
-            <p className="surprise-text">I have Surprise for you.</p>
+            <p className="surprise-text">
+              "Click here and see your surprise that I've made."🎉
+            </p>
             <Button onVisibility={onVisibility} />
+            <Bouquet />
           </div>
         </>
       )}
