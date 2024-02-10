@@ -14,6 +14,7 @@ const App = () => {
   };
   return (
     <>
+      <BackgroundMusic />
       {cardVisible ? (
         <BirthdayCard onVisibility={onVisibility} />
       ) : (
@@ -27,7 +28,6 @@ const App = () => {
               "Click here and see your surprise that I've made."🎉
             </p>
             <Button onVisibility={onVisibility} />
-            <BackgroundMusic />
           </div>
         </>
       )}

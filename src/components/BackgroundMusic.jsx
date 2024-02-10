@@ -3,7 +3,7 @@ import { PiSpeakerHigh, PiSpeakerSlash } from "react-icons/pi";
 import React, { useState } from "react";
 
 const BackgroundMusic = () => {
-  const [isSoundOn, setIsSoundOn] = useState(true);
+  const [isSoundOn, setIsSoundOn] = useState(false);
   const audioRef = React.createRef();
 
   const toggleSound = () => {
