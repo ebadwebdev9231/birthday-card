@@ -13,7 +13,7 @@ const App = () => {
     setCardVisible(!cardVisible);
   };
   return (
-    <div className="main">
+    <>
       <BackgroundMusic />
       {cardVisible ? (
         <BirthdayCard onVisibility={onVisibility} />
@@ -31,7 +31,7 @@ const App = () => {
           </div>
         </>
       )}
-    </div>
+    </>
   );
 };
 

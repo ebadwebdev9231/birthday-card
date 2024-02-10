@@ -9,9 +9,6 @@ body {
   height: 100vh;
   background-color: #112;
 }
-.main {
-  min-height: 100vh;
-}
 .App {
   text-align: center;
 }
