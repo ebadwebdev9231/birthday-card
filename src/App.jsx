@@ -20,12 +20,12 @@ const App = () => {
           <Balloons />
           <ConfettiEffect />
           <div className="App">
+            <Bouquet />
             <AnimatedText />
             <p className="surprise-text">
               "Click here and see your surprise that I've made."🎉
             </p>
             <Button onVisibility={onVisibility} />
-            <Bouquet />
           </div>
         </>
       )}
