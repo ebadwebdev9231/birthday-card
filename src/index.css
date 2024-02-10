@@ -1,1 +1,29 @@
-@import url(https://fonts.googleapis.com/css2?family=Carter+One&family=Dancing+Script:wght@400;500;700&family=Pacifico&family=Protest+Riot&display=swap);html{overflow:hidden}body{display:flex;align-items:center;justify-content:center;height:100vh;background-color:#112}.App{text-align:center}
+@import url(https://fonts.googleapis.com/css2?family=Carter+One&family=Dancing+Script:wght@400;500;700&family=Pacifico&family=Protest+Riot&display=swap);
+html {
+  overflow: hidden;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #112;
+}
+.App {
+  text-align: center;
+}
+.speaker {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}

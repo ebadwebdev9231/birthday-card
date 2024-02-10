@@ -5,6 +5,7 @@ import Button from "./components/Button";
 import Balloons from "./components/Balloons";
 import ConfettiEffect from "./components/ConfettiEffect";
 import Bouquet from "./components/Bouquet";
+import BackgroundMusic from "./components/BackgroundMusic";
 
 const App = () => {
   const [cardVisible, setCardVisible] = useState(false);
@@ -26,6 +27,7 @@ const App = () => {
               "Click here and see your surprise that I've made."🎉
             </p>
             <Button onVisibility={onVisibility} />
+            <BackgroundMusic />
           </div>
         </>
       )}
